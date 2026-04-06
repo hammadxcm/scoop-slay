@@ -1,0 +1,21 @@
+{
+  "version": "0.2.2",
+  "description": "Kill processes by port. Beautifully.",
+  "homepage": "https://slay.fyniti.co.uk",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/hammadxcm/slay/releases/download/v0.2.2/slay-windows-x64.exe#/slay.exe",
+      "hash": "placeholder"
+    }
+  },
+  "bin": "slay.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/hammadxcm/slay/releases/download/v$version/slay-windows-x64.exe#/slay.exe"
+      }
+    }
+  }
+}
