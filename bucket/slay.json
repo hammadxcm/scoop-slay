@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/hammadxcm/slay/releases/download/v0.2.2/slay-windows-x64.exe#/slay.exe",
-      "hash": "placeholder"
+      "hash": "47410f741c816431bd5ced1a970be11ebce899e3dca04e8d3c6fd36eff51f0ee"
     }
   },
   "bin": "slay.exe",
